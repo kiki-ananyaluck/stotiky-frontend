@@ -30,5 +30,5 @@ This is BackEnd [https://github.com/kiki-ananyaluck/spotiky-backend]
 <img src="./public/image/3.png" alt="Step 3: Search and Add Songs" style="width: 100%; max-width: 600px;">
 
 
-<h3>Step 4: Songs Displayed in the Playlist</h3>
+<h3>Step 4: Songs Displayed in the Playlist and you can Delete song</h3>
 <img src="./public/image/4.png" alt="Step 4: Songs Displayed in the Playlist" style="width: 100%; max-width: 600px;">

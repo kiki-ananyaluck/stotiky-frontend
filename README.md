@@ -19,7 +19,7 @@ This is BackEnd [https://github.com/kiki-ananyaluck/spotiky-backend]
 <h2>Steps</h2>
 
 <h3>Step 1: Log In</h3>
-<img src=./public/image/1.png" alt="Step 1: Log In" style="width: 100%; max-width: 600px;">
+<img src="./public/image/1.png" alt="Step 1: Log In" style="width: 100%; max-width: 600px;">
 
 
 <h3>Step 2: Create a New Playlist</h3>

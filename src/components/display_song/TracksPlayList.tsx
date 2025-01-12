@@ -27,7 +27,7 @@ const TracksPlayList = ({ playlistId, displayTrack, setDisplayTrack, setDisplayD
 
   return (
     <div className='mx-4'>
-      <button onClick={see}>see</button>
+      {/* <button onClick={see}>see</button> */}
       <div className='flex mb-8'>
         <div className="bg-[#3BE477] w-14 h-14 flex items-center pl-[17px] rounded-full hover:cursor-pointer">
           <IoPlaySharp className="w-6 h-6 text-[#2A2A2A]" />
@@ -39,7 +39,7 @@ const TracksPlayList = ({ playlistId, displayTrack, setDisplayTrack, setDisplayD
             <thead>
               <tr className='border-b border-gray-100 text-[#afafaf]'>
                 <th className='w-10 text-start'>#</th>
-                <th className='w-[300px] py-2 text-start'>ชื่อ</th>
+                <th className='w-[400px] py-2 text-start'>ชื่อ</th>
                 <th className='w-[350px] text-start'>อัลบั้ม</th>
                 <th className='text-start'>วันที่เพิ่ม</th>
                 <th className='text-start'><FaRegClock /></th>
@@ -58,12 +58,12 @@ const TracksPlayList = ({ playlistId, displayTrack, setDisplayTrack, setDisplayD
                       height="50"
                       style={{ borderRadius: "10%" }}
                     />
-                    <div className='flex flex-col ml-3'>
+                    <div className='flex flex-col ml-3 px-4 text-[12px] whitespace-normal'>
                       <h4>{item.track.name}</h4>
                       <p className='text-sm text-[#afafaf]'>{item.track.artists[0].name}</p>
                     </div>
                   </td>
-                  <td className='text-[#afafaf] text-sm'>{item.track.album.name}</td>
+                  <td className='text-[#afafaf] text-sm px-4 whitespace-normal'>{item.track.album.name}</td>
                   <td className='text-[#afafaf] text-sm'>{formatDate(item.added_at)}</td>
                   <td className='text-[#afafaf] text-sm'>{formatDuration(item.track.duration_ms)}</td>
                   <td className='text-[#afafaf] text-sm'>

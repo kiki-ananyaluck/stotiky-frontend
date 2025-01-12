@@ -29,7 +29,7 @@ export default function Page({
       <div className="flex">
         <SideBarList />
         <div className="w-full flex flex-col gap-10 bg-[#121212] mx-5">
-          <PlayListHeader />
+          <PlayListHeader displayDetail={displayDetail}/>
           {displayTrack.length > 0 ?(
             <TracksPlayList playlistId={slug} displayTrack={displayTrack} setDisplayTrack={setDisplayTrack} setDisplayDetail={setDisplayDetail} displayDetail={displayDetail} />
           ): <></>} 

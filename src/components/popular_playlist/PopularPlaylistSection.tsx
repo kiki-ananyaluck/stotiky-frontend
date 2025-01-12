@@ -18,7 +18,7 @@ const PopularPlaylistSection = () => {
   return (
     <div className='w-full'>
       <div className='flex justify-between items-end my-2'>
-        <h2 className='mb-2'>ศิลปินยอดนิยม</h2>
+        <h2 className='mb-2'>เพลย์ลิสต์ยอดนิยม</h2>
         <p className='mb-2 text-[#afafaf]'>แสดงทั้งหมด</p>
       </div>
       <CardPlaylist

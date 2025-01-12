@@ -17,8 +17,8 @@ export default function Home() {
       <div className="flex">
         <SideBar />
         <div className="w-full p-4 flex flex-col gap-10">
-          <PopularSection />
-          <PopularAlbumSection />
+          {/* <PopularSection />
+          <PopularAlbumSection /> */}
           <PopularPlaylistSection />
         </div>
       </div>
